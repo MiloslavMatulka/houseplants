@@ -38,7 +38,7 @@ public class ListOfPlants {
 
     public static List<Plant> importFromFile(String inputFile,
                                              String delimiter)
-            throws FileNotFoundException, PlantException {
+            throws PlantException {
         List<Plant> plantsList = new ArrayList<>();
         File data = new File(inputFile);
         long line = 0L;
